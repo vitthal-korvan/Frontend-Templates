@@ -1,0 +1,133 @@
+body { overflow-x:hidden; }
+
+nav {
+    width: 100%;
+    overflow: auto;
+}
+nav div{
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.list-item{
+    list-style-type: none;
+}
+
+.list li{
+    float: left;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    width: 100px;
+   
+}
+
+.button-group{
+    float: right;
+    margin-top: -1.5px;
+}
+
+.list{
+    margin-left: 170px;
+}
+
+.hero-container
+{
+    position: relative;
+}
+
+#hero{
+    position: absolute;
+    top: 80px;
+}
+#hero img{
+    max-width: 70%;
+    max-height: 50%;
+}
+
+.square{
+    position: absolute;
+    top: 330px;
+    left: 170px;
+}
+
+.square img{
+    max-width: 65%;
+}
+
+.globe{
+    position: absolute;
+    top: 40px;
+    left: 700px;
+}
+
+.globe img{
+    max-width: 70%;
+}
+
+.star{
+    position: absolute;
+    top: 80px;
+    left: 95%;
+}
+
+.star img{
+    width: 50px;
+
+}
+
+.hero-container-right{
+    position: relative;
+
+}
+
+.hero-heading{
+    position: absolute;
+    top: 180px;
+    left: 40%;
+    font-size: 60px;
+}
+
+.hero-description{
+    position: absolute;
+    top: 290px;
+    left: 40%;
+    text-align: center;
+    width: 50%;
+}
+
+
+.button-email{
+    position: absolute;
+    top: 400px;
+    left: 55%;
+    padding-right: 50px;
+    text-align: center;
+
+}
+
+.button-join{
+    position: absolute;
+    top: 400px;
+    left: 70%;
+}
+
+
+.contact-heading{
+    position: relative;
+    top: 500px;
+    left: 60%;
+}
+
+.icons{
+    position: relative;
+    top: 510px;
+    left: 58%;
+}
+
+

@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    
+    background-color: black;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 10vh; 
+    
+    
+}
+
+.list-item{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.grow-list{
+    display: flex;
+    /* border: 1px solid green; */
+    flex: 1;
+}
+
+nav .list{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style-type: none;
+    /* border: 1px solid red; */
+    margin: auto;
+    flex: 1;
+    
+    
+}
+
+.main-logo{
+    margin: auto;
+    /* border: 1px solid red;  */
+    display: flex;
+    flex: 0.3;
+    flex-direction: row-reverse;
+
+
+}
+
+.logo{
+    width: 75px;
+    height: 50px;
+    
+}
+
+.line{
+    height: 6.6vh;
+    /* border: 1px solid pink; */
+    display: flex;
+    flex: 0.1;
+    margin: auto;
+}
+
+span{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 70px;
+    /* height: ; */
+    border-right: 1px solid white;
+}
+
+.hero{
+    background: url(./assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    text-align: center;
+    color: white;  
+
+}
+
+.button-small{
+    background-color: rgb(192, 58, 192);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;   
+    margin: 0 45px;
+}
+
+
+.button-group{
+    /* border: 1px solid yellow; */
+    margin: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse
+}
+
+
+
+.hero h1{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero p{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-large{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(192, 58, 192);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+}
